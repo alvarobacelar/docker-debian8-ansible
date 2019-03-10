@@ -11,6 +11,7 @@ RUN apt-get update \
        sudo \
        build-essential libffi-dev libssl-dev \
        python-pip python-dev \
+       unzip \
     && rm -rf /var/lib/apt/lists/* \
     && rm -Rf /usr/share/doc && rm -Rf /usr/share/man \
     && apt-get clean
